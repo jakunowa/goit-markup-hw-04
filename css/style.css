@@ -289,6 +289,6 @@ header {
   flex-wrap: wrap;
   gap: 30px;
 }
-.envelope-icon{width:16px;
-height:12px;
-fill:#757575;}
+.contact-icon {
+  vertical-align: middle;
+  fill:#757575;}
