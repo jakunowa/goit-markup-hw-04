@@ -87,6 +87,7 @@ body {
   font-size: 16px;
   line-height: 1.88;
   color: var(--p-main-color);
+  padding-bottom:16px;
 }
 .a-main {
   text-decoration: none;
@@ -301,5 +302,11 @@ header {
   margin-bottom: 30px;
   background: #F5F4FA;
 border-radius: 4px;}|
-.social-icons{
-  padding:12px;}
+
+.social-icons-container{
+margin-top:16px;
+padding:0 32px;}
+
+.social-icons{color:red;
+  
+  }
