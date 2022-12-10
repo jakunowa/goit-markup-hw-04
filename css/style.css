@@ -172,8 +172,7 @@ address > ul > li > p {
   color: var(--logo-color);
   padding-top: 60px;
   padding-bottom: 60px;
-  /* display: flex;
-  align-items: center; */
+  
 }
 .button-main {
   cursor: pointer;
@@ -351,10 +350,10 @@ padding-bottom:32px;}
 }
 .container-footer{
   display: flex;
+
   align-items: center;
  
-  
- 
+
 }
 .figure-portfolio:hover{
 
@@ -375,3 +374,4 @@ padding-bottom:32px;}
   fill:var(--highlight-color);
   
 }.icon-client{cursor: pointer;}
+.address-main{margin:0;}
