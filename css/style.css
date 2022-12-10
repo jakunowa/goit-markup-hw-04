@@ -149,10 +149,13 @@ body {
 .button-portfolio:hover {
   background-color: var(--highlight-color);
   color: var(--logo-color);
+  box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3)
+  
 }
 .button-portfolio:focus {
   background-color: var(--highlight-color);
   color: var(--logo-color);
+  box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3)
 }
 .links-footer {
   color: var(--links-footer-color);
@@ -169,8 +172,8 @@ address > ul > li > p {
   color: var(--logo-color);
   padding-top: 60px;
   padding-bottom: 60px;
- 
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
 .button-main {
   cursor: pointer;
@@ -248,9 +251,14 @@ address > ul > li > p {
 .section-main {
   display: flex;
 
-  background-color: var(--main-background-color);
-  color: var(--logo-color);
-}
+  background-image:linear-gradient(#2F303A66, #2F303A66),
+url('../images/Img.jpg');
+background-repeat:no-repeat;
+background-size:1600px;
+background-position:50%;
+background-color: var(--main-background-color);
+  color: var(--logo-color);}
+
 
 .ul-flex {
   display: flex;
@@ -293,6 +301,10 @@ header {
 .contact-icon {
   vertical-align: middle;
   fill:#757575;}
+  
+  .contact-icon:hover{
+    fill: var(--highlight-color);
+  }
 
   .atuts-icon{
     fill:#212121;
@@ -308,7 +320,8 @@ Padding-left:30px;
 padding-right:30px;
 padding-top:16px;
 padding-bottom:32px;}
-
+.li-clients:hover,
+.li-clients:focus{border: 1px solid var(--highlight-color);}
 
 .li-clients{
   border: 1px solid 
@@ -326,7 +339,7 @@ padding-bottom:32px;}
   margin-right:10px;
 }
 .icon-team{
-  padding:12px;
+
   margin-bottom:32px;
   margin-top:16px;
 ;
@@ -334,3 +347,30 @@ padding-bottom:32px;}
 .container-team{
   margin-bottom:32px;
 }
+.container-footer{
+  display: flex;
+  align-items: center;
+ 
+  
+ 
+}
+.figure-portfolio:hover{
+
+  box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
+}
+.social.icons-team{
+gap:10px;
+}
+.social-icons-team:hover{
+  fill:#ffffff;
+ 
+}
+.circle-team:hover,
+.circle-team:focus{fill:var(--highlight-color)}
+.icon-client:hover{
+  fill:var(--highlight-color);
+}
+.icon-client:focus{
+  fill:var(--highlight-color);
+  
+}.icon-client{cursor: pointer;}
