@@ -169,7 +169,7 @@ address > ul > li > p {
   color: var(--logo-color);
   padding-top: 60px;
   padding-bottom: 60px;
-  display: flex;
+ 
   align-items: center;
 }
 .button-main {
@@ -318,7 +318,7 @@ padding-bottom:32px;}
  margin-right:30px;}
 
 .social-content{
-  display:flex;
+
   align-items: center;
 }
 .footer-icon{
