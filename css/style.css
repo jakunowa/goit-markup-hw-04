@@ -364,17 +364,11 @@ padding-bottom:32px;}
   padding-right:32px;
   padding-left:32px;
   padding-bottom:30px;
-  align-content:center;
+  padding-top:16px;
 }
 
-.icon-team{ justify-content:center;
-align-items: center;}
-.social-icons-team:hover{
-  fill:#ffffff;
- 
-}
-.circle-team:hover,
-.circle-team:focus{fill:var(--highlight-color)}
+
+
 .icon-client:hover{
   fill:var(--highlight-color);
 }
@@ -382,3 +376,7 @@ align-items: center;}
   fill:var(--highlight-color);
   
 }.icon-client{cursor: pointer;}
+
+.icon-svg:hover{ border-radius:50%;
+fill:#ffffff;
+background-color: #2196f3;}
