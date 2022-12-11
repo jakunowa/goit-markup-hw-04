@@ -338,8 +338,8 @@ padding-bottom:32px;}
 }
 .footer-icon{
   fill:#ffffff;
-  margin-right:10px;
-  border-radius:50%;
+  
+  
 }
 
 
@@ -377,6 +377,12 @@ padding-bottom:32px;}
   
 }.icon-client{cursor: pointer;}
 
-.icon-svg:hover{ border-radius:50%;
+.icon-svg:hover,.icon-svg:focus{ 
 fill:#ffffff;
-background-color: #2196f3;}
+}
+
+.a-team{padding:12px;}
+.a-team:hover, .a-team:focus{
+background-color: #2196f3;
+border-radius:50%;
+}
