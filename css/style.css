@@ -294,7 +294,7 @@ header {
   text-align: center;
 }
 .li-team {
-  margin-right: 30px;
+ gap:30px;
 }
 .portfolio-img {
   flex-wrap: wrap;
@@ -341,13 +341,8 @@ padding-bottom:32px;}
   margin-right:10px;
   border-radius:50%;
 }
-.icon-team{
-
-  margin-bottom:32px;
-  margin-top:16px;
 
 
-}
 .container-team{
   margin-bottom:32px;
 }
@@ -364,6 +359,16 @@ padding-bottom:32px;}
 }
 .social.icons-team{border-radius: 50%;
 }
+
+.ul-team {
+  padding-right:32px;
+  padding-left:32px;
+  padding-bottom:30px;
+  align-content:center;
+}
+
+.icon-team{ justify-content:center;
+align-items: center;}
 .social-icons-team:hover{
   fill:#ffffff;
  
