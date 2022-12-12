@@ -256,14 +256,14 @@ address > ul > li > p {
 }
 .section-main {
   display: flex;
-
+width:1600px;
   background-image:linear-gradient(#2F303A66, #2F303A66),
 url('../images/Img.jpg');
-background-repeat:no-repeat;
-background-size:1600px;
-background-position:50%;
+
 background-color: var(--main-background-color);
-  color: var(--logo-color);}
+margin:0 auto;  
+color: var(--logo-color);}
+
 
 
 .ul-flex {
