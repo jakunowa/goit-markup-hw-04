@@ -309,7 +309,8 @@ header {
 }
 .contact-icon {
   vertical-align: middle;
-  fill:#757575;}
+  fill:#757575;
+margin-right:10px;}
   
 .header-icon:hover svg,
 .header-icon:focus svg{ fill:var(--highlight-color);} 
